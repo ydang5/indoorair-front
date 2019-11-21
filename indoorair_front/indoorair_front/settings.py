@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     # 'gateway.apps.GatewayConfig',
     # 'report.apps.ReportConfig',
     # 'sensor.apps.SensorConfig',
-    'pages.apps.HomepageConfig',
+    'pages.apps.PagesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

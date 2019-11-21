@@ -1,6 +1,6 @@
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
-from homepage import views
+from .import views
 
 urlpatterns = [
     path('', views.index_page, name='index'),
